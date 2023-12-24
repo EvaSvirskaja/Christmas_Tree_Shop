@@ -1,0 +1,39 @@
+#tree-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.tree-item {
+    box-sizing: border-box;
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tree-item:hover {
+    transform: scale(1.05);
+}
+
+.tree-item img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.tree-item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.tree-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #888;
+}
